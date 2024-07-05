@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="https://decolonialvexillology.github.io/style.css">
     <title>Decolonial Vexillology</title>
   </head>
-  <body id="body">
+  <body>
     <nav>
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -29,6 +29,8 @@
     <main>
       <label for="colorpicker">Background colour:</label>
       <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
+      <label for="txtColorPicker">Text colour:</label>
+      <input id="txtColorPicker" type="color" onchange="" value="#000000">
     </main>
     <footer>
       <hr>
@@ -37,6 +39,10 @@
     <script>
       function changecolor(el) {
         document.body.style.backgroundColor = el.value;
+      }
+
+      function changecolor(el) {
+        document.body.style.color = el.value;
       }
     </script>
   </body>
