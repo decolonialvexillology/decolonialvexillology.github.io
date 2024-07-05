@@ -39,13 +39,6 @@
     <script>
       function changecolor(el) {
         document.body.style.backgroundColor = el.value;
-        
-        function invertHex(hex) {
-          return (Number(`0x1${hex}`) ^ 0xFFFFFF).toString(16).substr(1).toUpperCase()
-          document.body.style.color = hex.value;
-        }
-
-        invertHex('el');
       }
 
       function changetxtcolor(el) {
