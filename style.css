@@ -15,12 +15,16 @@ a {
   color: inherit;
 }
 
+header {
+  float: left;
+}
+
 header a {
   text-decoration: inherit;
 }
 
-body {
-  font-family: sans-serif;
+header.settings-button {
+  float: right;
 }
 
 footer p {
