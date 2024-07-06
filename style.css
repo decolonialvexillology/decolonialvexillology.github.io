@@ -3,6 +3,10 @@ header {
   color: #222222;
 }
 
+header .a {
+  text-decoration: none;
+}
+
 body {
   font-family: sans-serif;
 }
