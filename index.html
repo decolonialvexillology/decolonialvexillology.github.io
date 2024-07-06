@@ -41,30 +41,11 @@
       </script>
     </nav>
     <header>
-      <h1><a onclick="openNav()"><span class="material-symbols-outlined">menu</span></a>&nbsp;&nbsp;<a href="#">Decolonial Vexillology</a><a onclick="openSettings"><span class="material-symbols-outlined settings-button">settings</span></a></h1>
+      <h1><a onclick="openNav()"><span class="material-symbols-outlined">menu</span></a>&nbsp;&nbsp;<a href="#">Decolonial Vexillology</a><span class="material-symbols-outlined settings-button">settings</span></h1>
     </header>
     <main>
-      <div id="settings" class="sidenav settings">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeSettings()"><span class="material-symbols-outlined">close</span></a>
-        <h2>Settings</h2>
-        <hr>
-        <label>Sort by:</label>
-        <hr>
-        <label>Filter by continent</label>
-        <hr>
-        <label for="colorpicker">Background colour:</label>
-        <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
-      </div>
-      <script>
-        function openSettings() {
-          document.getElementById("settings").style.width = "100%";
-        }
-
-        function closeSettings() {
-          document.getElementById("settings").style.width = "0";
-        }
-      </script>
-      <span onclick="openSettings">Settings & filters</span>
+      <label for="colorpicker">Background colour:</label>
+      <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
     </main>
     <footer>
       <hr>
