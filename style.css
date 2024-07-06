@@ -1,11 +1,15 @@
 header {
   background-color: white;
   color: #222222;
+  width: 100%;
+}
+
+a {
+  color: inherit;
 }
 
 header a {
   text-decoration: inherit;
-  color: inherit;
 }
 
 body {
