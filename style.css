@@ -3,9 +3,9 @@ header {
   color: #222222;
 }
 
-header .a {
-  text-decoration: none;
-  color: #222222;
+header a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 body {
