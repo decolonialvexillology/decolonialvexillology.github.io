@@ -27,6 +27,10 @@ footer p {
   text-align: center;
 }
 
+hr {
+  border: 0.5px solid black;
+}
+
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
