@@ -31,12 +31,10 @@
         <a href="#" onclick="closeNav()">Home</a>
       </div>
       <script>
-        /* Set the width of the side navigation to 250px */
         function openNav() {
           document.getElementById("mySidenav").style.width = "100%";
         }
 
-        /* Set the width of the side navigation to 0 */
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
@@ -46,8 +44,26 @@
       <h1><a onclick="openNav()"><span class="material-symbols-outlined">menu</span></a>&nbsp;&nbsp;<a href="#">Decolonial Vexillology</a><span class="material-symbols-outlined settings-button">settings</span></h1>
     </header>
     <main>
-      <label for="colorpicker">Background colour:</label>
-      <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
+      <div id="settings" class="sidenav settings">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSettings()"><span class="material-symbols-outlined">close</span></a>
+        <h2>Settings</h2>
+        <hr>
+        <label>Sort by:</label>
+        <hr>
+        <label>Filter by continent</label>
+        <hr>
+        <label for="colorpicker">Background colour:</label>
+        <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
+      </div>
+      <script>
+        function openSettings() {
+          document.getElementById("settings").style.width = "100%";
+        }
+
+        function closeSettings() {
+          document.getElementById("settings").style.width = "0";
+        }
+      </script>
     </main>
     <footer>
       <hr>
