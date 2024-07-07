@@ -2,7 +2,7 @@
   "name": "Decolonial Vexillology",
   "short_name": "Decolonial Vexillology",
   "start_url": "https://decolonialvexillology.github.io",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#fff",
   "description": "A readable Hacker News app.",
   "icons": [
