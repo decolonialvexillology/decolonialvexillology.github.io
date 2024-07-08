@@ -1,8 +1,8 @@
 @font-face {
   font-family: "CCSymbols";
   src: url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff") format("woff"),
-       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.ttf") format("truetype"),
-       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.sfd") format("sfd");
+       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff2") format("woff2"),
+       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.ttf") format("truetype");
 }
 
 body {
