@@ -23,6 +23,7 @@ header a {
 
 footer p {
   text-align: center;
+  opacity: 0.5;
 }
 
 .ccsymbols {
