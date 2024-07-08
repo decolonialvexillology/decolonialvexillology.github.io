@@ -25,6 +25,10 @@ footer p {
   text-align: center;
 }
 
+.ccsymbols {
+  font-family: "CCSymbols", sans-serif;
+}
+
 hr {
   border: 0.5px solid black;
 }
