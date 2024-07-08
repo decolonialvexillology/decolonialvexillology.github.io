@@ -26,6 +26,9 @@ footer p {
   opacity: 0.5;
 }
 
+footer p a {
+  opacity: 1;
+
 .ccsymbols {
   font-family: "CCSymbols", sans-serif;
 }
