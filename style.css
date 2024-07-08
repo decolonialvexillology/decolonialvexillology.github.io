@@ -34,10 +34,6 @@ footer p a {
   font-family: "CCSymbols", sans-serif;
 }
 
-a.material-symbols-outlined {
-  text-size: calc(inherit + 5px)
-}
-
 hr {
   border: 0.5px solid black;
 }
