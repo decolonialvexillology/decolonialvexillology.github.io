@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "CCSymbols";
+  src: url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.");
+  src: url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff") format("woff"),
+       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.ttf") format("truetype"),
+       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.sfd") format("sfd");
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
