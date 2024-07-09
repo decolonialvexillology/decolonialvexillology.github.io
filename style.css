@@ -21,13 +21,9 @@ header a {
   float: right;
 }
 
-footer p {
+footer.copyright {
   text-align: center;
   opacity: 0.5;
-}
-
-.ccfooterlink {
-  opacity: 1;
 }
 
 .ccsymbols {
