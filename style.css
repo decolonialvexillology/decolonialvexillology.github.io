@@ -21,8 +21,11 @@ header a {
   float: right;
 }
 
-footer.copyright {
+footer {
   text-align: center;
+}
+  
+footer.copyright {
   opacity: 0.5;
 }
 
