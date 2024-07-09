@@ -57,6 +57,8 @@
       function changecolor(el) {
         const newBackgroundColor = el.value;
         document.body.style.backgroundColor = newBackgroundColor;
+
+        document.querySelector('hr').style.backgroundColor = invertColor(newBackgroundColor);
     
         // Calculate the relative luminance of the background color
         const luminance = calculateLuminance(newBackgroundColor);
