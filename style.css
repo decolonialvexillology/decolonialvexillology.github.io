@@ -24,8 +24,8 @@ header a {
 footer {
   text-align: center;
 }
-  
-footer.copyright {
+
+.copyright {
   opacity: 0.5;
 }
 
