@@ -62,6 +62,11 @@ hr {
   text-align: center;
 }
 
+.settings {
+  background-color: white;
+  color: black;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   font-size: 30px;
