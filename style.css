@@ -34,7 +34,7 @@ footer {
 }
 
 hr {
-  border: 0.5px solid inherit;
+  border: 0.5px solid auto;
 }
 
 /* The side navigation menu */
