@@ -45,7 +45,7 @@ hr {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #fff;
+  background-color: black;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -56,7 +56,7 @@ hr {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: black;
+  color: white;
   display: block;
   transition: 0.3s;
   text-align: center;
