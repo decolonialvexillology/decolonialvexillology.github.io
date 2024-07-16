@@ -38,9 +38,6 @@
       <h1><span onclick="openNav()" class="material-symbols-outlined">menu</span></a>&nbsp;&nbsp;<a href="#">Decolonial Vexillology</a><span onclick="openSet()" class="material-symbols-outlined tools">settings</span><span onclick="openFullscreen()" class="material-symbols-outlined tools">fullscreen</span></h1>
     </header>
     <main>
-      <label for="colorpicker">Background colour:</label>
-      <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
-      
       <!-- Settings BEGIN -->
       <div id="settings" class="sidebar settings">
         <a href="javascript:void(0)" class="closebtn" onclick="closeSet()"><span class="material-symbols-outlined">close</span></a>
@@ -54,29 +51,5 @@
       <hr>
       <p><span class="copyright">Decolonial Vexillology is &copy; Miro Jones 2024-<script>document.write( new Date().getFullYear() );</script>. All decolonised flags are released into the public domain under </span><a onclick="openIframeModal()" target="iframe" class="ccfooterlink" href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1">CC0 <span class="ccsymbols">&#127341;&#127245;</span></a><span class="copyright">.</span></p>
     </footer>
-    <script>
-      function changecolor(el) {
-        const newBackgroundColor = el.value;
-        document.body.style.backgroundColor = newBackgroundColor;
-    
-        // Calculate the relative luminance of the background color
-        const luminance = calculateLuminance(newBackgroundColor);
-
-        // Set the text color to black for bright backgrounds, white for dark backgrounds
-        const newTextColor = luminance > 0.5 ? 'black' : 'white';
-        document.body.style.color = newTextColor;
-      }
-
-      // Function to calculate luminance - replace this with your preferred function
-      // This is a basic example, more sophisticated luminance calculations exist
-      function calculateLuminance(color) {
-        // Convert hex color to RGB (replace with your preferred conversion function)
-        const rgb = color.substring(1).match(/.{2}/g).map(val => parseInt(val, 16));
-  
-        // Calculate relative luminance (basic approximation)
-        const lum = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2];
-        return lum / 255;
-      }
-    </script>
   </body>
 </html>
