@@ -37,7 +37,7 @@ hr {
   border: 0.5px solid auto;
 }
 
-/* Both sidebars */
+/* Navigation */
 .sidebar {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -61,9 +61,19 @@ hr {
   text-align: center;
 }
 
+/* Settings bar */
 .settings {
   background-color: white;
   color: black;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: black;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* When you mouse over the navigation links, change their color */
