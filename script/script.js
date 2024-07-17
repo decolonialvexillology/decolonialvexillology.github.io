@@ -9,7 +9,7 @@ function closeNav() {
 
 // ⚙️ Settings
 function openSet() {
-  document.getElementById("settings").style.width = "100%";
+  document.getElementById("settings").style.width = "300px";
 }
 
 function closeSet() {
