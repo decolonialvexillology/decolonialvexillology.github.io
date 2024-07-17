@@ -39,6 +39,7 @@ hr {
 
 /* Navigation */
 .sidebar {
+  padding: 20px, 20px, 20px, 20px;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -52,7 +53,6 @@ hr {
 
 /* The navigation */
 .navigation a {
-  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -63,6 +63,7 @@ hr {
 
 /* Settings bar */
 .settings {
+  padding: 20px, 20px, 20px, 20px;
   background-color: #eee;
   color: black;
   height: 100%; /* 100% Full-height */
