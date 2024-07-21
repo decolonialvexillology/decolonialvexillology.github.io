@@ -16,6 +16,15 @@ function closeSet() {
   document.getElementById("settings").style.width = "0";
 }
 
+// ⬆️ Share
+function openShare() {
+  document.getElementById("share").style.display = block;
+}
+
+function closeShare() {
+  document.getElementById("share").style.display = block;
+}
+
 // 🔴🟠🟡🟢🔵🟣⚫️ Color changer
 function changecolor(el) {
   const newBackgroundColor = el.value;
