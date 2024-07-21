@@ -21,6 +21,17 @@ header a {
   float: right;
 }
 
+.share {
+  position: fixed;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: white;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  display: none;
+}
+
 footer {
   text-align: center;
 }
@@ -34,7 +45,7 @@ footer {
 }
 
 hr {
-  border: 0.5px solid auto;
+  border: 0.5px solid black;
 }
 
 /* Navigation */
