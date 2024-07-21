@@ -25,7 +25,7 @@ function closeShare() {
   document.getElementById("share").style.display = block;
 }
 
-// 🔴🟠🟡🟢🔵🟣⚫️ Color changer
+// 🎨 Color changer
 function changecolor(el) {
   const newBackgroundColor = el.value;
   document.body.style.backgroundColor = newBackgroundColor;
