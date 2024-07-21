@@ -16,7 +16,7 @@ function closeSet() {
   document.getElementById("settings").style.width = "0";
 }
 
-// ⬆️ Share
+// ⬆️  Share
 function openShare() {
   document.getElementById("share").style.display = block;
 }
