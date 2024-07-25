@@ -7,6 +7,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
 
 a {
@@ -92,8 +93,8 @@ hr {
 /* Position and style the close button (top right corner) */
 .closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
   margin-left: 50px;
 }
