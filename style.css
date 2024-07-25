@@ -21,18 +21,6 @@ header a {
   float: right;
 }
 
-#share {
-  position: fixed;
-  width: auto;
-  height: auto;
-  color: black;
-  background-color: white;
-  border: 0.5px solid black;
-  border-radius: 5px;
-  display: none;
-  margin: auto;
-}
-
 footer {
   text-align: center;
 }
