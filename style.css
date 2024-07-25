@@ -19,6 +19,7 @@ header a {
 
 .tools {
   float: right;
+  top: 0;
 }
 
 footer {
