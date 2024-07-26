@@ -54,3 +54,11 @@ a2a_config.custom_services = [
 a2a_config.prioritize = [ 'x', 'facebook', 'whatsapp', 'print', 'copy_link' ];
 
 a2a_config.exclude_services = [ 'amazon_wish_list' ];
+
+// 💬 Font size editor
+const fontSizeSelect = document.getElementById('fontSizeSelect');
+
+fontSizeSelect.addEventListener('change', () => {
+  const selectedValue = fontSizeSelect.value;
+  document.documentElement.style.fontSize = `${selectedValue}rem`;
+});
