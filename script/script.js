@@ -40,20 +40,14 @@ function calculateLuminance(color) {
   return lum / 255;
 }
 
-// ➕ a2a script
-var a2a_config = a2a_config || {};
-a2a_config.onclick = 1;
+// ⬆️ Share
+function openShare() {
+  document.getElementById("share").style.display = "block"
+}
 
-a2a_config.custom_services = [
-  ["Substack Notes",
-    "https://substack.com/home?action=compose&message=A2A_LINKNAME_ENC%20%0AA2A_LINKURL_ENC",
-    "https://mirojones.github.io/notes/icons/substack.svg",
-  ],
-];
-
-a2a_config.prioritize = [ 'x', 'facebook', 'whatsapp', 'print', 'copy_link' ];
-
-a2a_config.exclude_services = [ 'amazon_wish_list' ];
+function closeShare() {
+  document.getElementById("share").style.display = "none"
+}
 
 // 💬 Font size editor
 const fontSizeSelect = document.getElementById('fontSizeSelect');
