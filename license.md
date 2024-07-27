@@ -11,7 +11,7 @@ The name 'DECOLONIAL VEXILLOLOGY' is &trade; Miro Jones.
 - [Montserrat](https://fonts.google.com/specimen/Montserrat): SIL Open Font License
 - [Google Material Symbols](https://fonts.google.com/icons): [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 - [FontAwesome icons](https://fontawesome.com): [FontAwesome license](https://fontawesome.com/license)
-- [CCSymbols font]():
+- [CCSymbols font](https://www.ctrl.blog/entry/creative-commons-unicode-fallback-font.html): Public domain
 
 
 All other content is &copy; 2024 Miro Jones.
