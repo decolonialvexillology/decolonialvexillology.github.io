@@ -37,7 +37,15 @@
     </nav>
     <header>
       <h1><span onclick="openNav()" class="material-symbols-outlined">menu</span></a>&nbsp;&nbsp;<a onclick="window.location.reload();">Decolonial Vexillology</a><div class="tools"><span onclick="openSet()" class="material-symbols-outlined">settings</span>&nbsp;&nbsp;<span onclick="openFullscreen()" class="material-symbols-outlined">fullscreen</span>&nbsp;&nbsp;<span class="material-symbols-outlined" id="shareBtn" onclick="openShare()" role="button">share</span></div></h1>
-      <script async src="https://static.addtoany.com/menu/page.js"></script>
+      <div id="share">
+        <span onclick="closeShare()" role="button" class="material-symbols-outlined closebtn">close</span>
+        <ul>
+          <li><a href="https://substack.com">Substack</a></li>
+          <li><a href="https://x.com">X (fka Twitter)</a></li>
+          <li><a href="https://facebook.com">Facebook</a></li>
+          <li><a href="mailto:blah">Email</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <!-- Settings BEGIN -->
