@@ -101,7 +101,7 @@ hr {
 
 #share {
   display: none;
-  position: absolute;
+  position: fixed;
   width: auto;
   background-color: #eee;
   padding: 10px;
