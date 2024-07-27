@@ -8,7 +8,7 @@ All decolonised flags made by Decolonial Vexillology are in the public domain.
 The name 'DECOLONIAL VEXILLOLOGY' is &trade; Miro Jones.
 
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat): SIL Open Font License
+- [Montserrat](https://fonts.google.com/specimen/Montserrat): [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 - [Google Material Symbols](https://fonts.google.com/icons): [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 - [FontAwesome icons](https://fontawesome.com): [FontAwesome license](https://fontawesome.com/license)
 - [CCSymbols font](https://www.ctrl.blog/entry/creative-commons-unicode-fallback-font.html): Public domain
