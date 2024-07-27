@@ -105,7 +105,8 @@ hr {
   width: auto;
   background-color: #eee;
   padding: 10px;
-  top: 50%;
+  top: 40%;
+  left: 50%
   z-index: 3;
 }
 
