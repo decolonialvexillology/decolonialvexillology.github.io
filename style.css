@@ -98,3 +98,16 @@ hr {
   font-size: 2rem;
   margin-left: 50px;
 }
+
+#share {
+  display: none;
+  position: absolute;
+  width: auto;
+  background-color: #eee;
+  padding: 10px;
+}
+
+#share ul {
+  list-style-type: none;
+  padding: 0;
+}
