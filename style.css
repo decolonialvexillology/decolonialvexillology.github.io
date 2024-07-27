@@ -1,12 +1,16 @@
 @font-face {
-  font-family: "CCSymbols";
-  src: url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff") format("woff"),
-       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff2") format("woff2"),
-       url("https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.ttf") format("truetype");
+  font-display: swap;
+  font-family: CCSymbols;
+  font-synthesis: none;
+  src: url(https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff2) format(woff2),
+       url(https://decolonialvexillology.github.io/fonts/ccsymbols/CCSymbols.woff)  format(woff);
+  unicode-range: u+a9, u+229c,
+                 u+1f10d-1f10f,
+                 u+1f16d-1f16f;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, CCSymbols;
   font-size: 1rem;
 }
 
@@ -29,10 +33,6 @@ footer {
 
 .copyright {
   opacity: 0.5;
-}
-
-.ccsymbols {
-  font-family: "CCSymbols", sans-serif;
 }
 
 hr {
