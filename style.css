@@ -101,12 +101,10 @@ hr {
 
 #shareMenu {
   display: none;
-  position: fixed;
+  position: absolute;
   width: auto;
   background-color: #eee;
   padding: 10px;
-  top: 40%;
-  left: 50%;
   z-index: 3;
 }
 
