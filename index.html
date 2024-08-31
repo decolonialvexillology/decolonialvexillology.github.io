@@ -39,7 +39,11 @@
           <h4><span class="material-symbols-outlined">filter_list</span>&nbsp;&nbsp;Filter</h4>
           <h4><span class="material-symbols-outlined">tune</span>&nbsp;&nbsp;Customisation</h4>
           <label for="colorpicker">Background colour:</label>
-          <input id="colorpicker" type="color" onchange="changecolor(this)" value="#ffffff">
+          <input id="colorpicker" type="color" list="colors" onchange="changecolor(this)" value="#ffffff"/>
+          <datalist id="colors">
+            <option>#f36e32</option>
+            <option>#ff00ff</option>
+          </datalist>
         </div>
       </div>
       <!-- 🟢 Settings END -->
