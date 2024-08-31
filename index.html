@@ -18,31 +18,16 @@
     <script src="https://kit.fontawesome.com/88361af228.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav>
-      <div id="mySidenav" class="sidebar navigation">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="material-symbols-outlined">close</span></a>
-        <a onclick="window.location.reload();">Home</a>
-      </div>
-    </nav>
-    <header>
-      <h1><span onclick="openNav()" class="material-symbols-outlined">menu</span></a><h1><a onclick="window.location.reload();">Decolonial Vexillology</a></h1><span onclick="openSet()" class="material-symbols-outlined tools">settings</span><span onclick="openFullscreen()" class="material-symbols-outlined tools">fullscreen</span><span class="material-symbols-outlined tools" id="shareBtn" onclick="openShare()" role="button">share</span><span class="material-symbols-outlined tools" id="shareBtn" onclick="openShare()" role="button">share</span></h1>
-    </header>
     <main>
       <!-- ⚙️ sidebar BEGIN -->
-      <div id="settings" class="settings">
-        <div class="settings-content">
-          <div class="closebtn"><span onclick="closeSet()" class="material-symbols-outlined">check</span><span onclick="window.location.reload();" class="material-symbols-outlined">refresh</span></div>
-          <h3>Settings</h3>
-          <h4><span class="material-symbols-outlined">sort</span>&nbsp;&nbsp;Sort</h4>
-          <h4><span class="material-symbols-outlined">filter_list</span>&nbsp;&nbsp;Filter</h4>
-          <h4><span class="material-symbols-outlined">tune</span>&nbsp;&nbsp;Customisation</h4>
-          <label for="colorpicker">Background colour:</label>
-          <input id="colorpicker" type="color" list="colors" onchange="changecolor(this)" value="#ffffff"/>
-          <datalist id="colors">
-            <option>#f36e32</option>
-            <option>#ff00ff</option>
-          </datalist>
-        </div>
+      <div id="sidebar">
+        <h1>Decolonial Vexillology</h1>
+        <label for="colorpicker">Background colour:</label>
+        <input id="colorpicker" type="color" list="colors" onchange="changecolor(this)" value="#ffffff"/>
+        <datalist id="colors">
+          <option>#f36e32</option>
+          <option>#ff00ff</option>
+        </datalist>
       </div>
       <!-- ⚙️ sidebar END -->
 
