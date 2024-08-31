@@ -22,8 +22,10 @@
       <!-- ⚙️ sidebar BEGIN -->
       <div id="sidebar">
         <h1>Decolonial Vexillology</h1>
-        <label for="colorpicker">Background colour:</label>
-        <input id="colorpicker" type="color" list="colors" onchange="changecolor(this)" value="#ffffff"/>
+        <label for="colorpicker">
+          <span class="material-symbols-outlined">palette</span>
+          <input id="colorpicker" type="color" list="colors" onchange="changecolor(this)" value="#ffffff"/>
+        </label>
         <datalist id="colors">
           <option>#f36e32</option>
           <option>#ff00ff</option>
