@@ -18,10 +18,15 @@
     <script src="https://kit.fontawesome.com/88361af228.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <main>
-      <!-- ⚙️ sidebar BEGIN -->
-      <div id="sidebar">
+    <header>
+      <div id="logo">
         <span class="material-symbols-outlined">flag</span>
+      </div>
+    </header>
+    <main>
+      
+      <!-- ⚙️ sidebar BEGIN -->
+      <aside id="sidebar">
         <label for="colorpicker"><span class="material-symbols-outlined">palette</span></label>
         <input id="colorpicker" type="color" list="colors" onchange="changecolor(this)" value="#ffffff"/>
         <datalist id="colors">
@@ -31,7 +36,7 @@
           <option>#333333</option>
           <option>#000000</option>
         </datalist>
-      </div>
+      </aside>
       <!-- ⚙️ sidebar END -->
 
       <!-- 🚩 Flag Grid BEGIN -->
