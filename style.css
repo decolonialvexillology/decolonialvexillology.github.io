@@ -18,11 +18,10 @@ a {
   color: inherit;
 }
 
-header a {
-  text-decoration: inherit;
-}
-
 footer {
+  margin: 0;
+  padding: 0;
+  font-size: 0.5rem;
   text-align: right;
   position: fixed;
   bottom: 0;
