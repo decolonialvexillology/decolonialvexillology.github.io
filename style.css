@@ -35,12 +35,19 @@ hr {
   border: 0.5px solid #000;
 }
 
-#sidebar {
+#sidebar, #logo {
   position: fixed;
   top: 0;
-  left: 0;
   padding: 1em;
   margin: 0;
   color: #000;
   background-color: #fff;
+}
+
+#sidebar {
+  right: 0;
+}
+
+#logo {
+  left: 0;
 }
