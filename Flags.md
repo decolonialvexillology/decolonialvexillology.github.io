@@ -8,3 +8,8 @@
 ### Sources
 
 - [*Australian Flags* booklet](https://www.pmc.gov.au/sites/default/files/resource/download/australia-flag-booklet-fa-accessible.pdf)
+
+## Papua New Guinea
+### Remove
+
+- 
